@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta user-scalable="no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description"
+        content="Projektowanie i tworzenie nowoczesnych responsywnych stron internetowych, zadbane pozycjonowanie w google oraz umieszczenie stron na hosting">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" as="font">
     <link rel="icon" href="/dist/img/logo1.png">
     <title>KarlosDev | Web developer</title>
     <script src="https://kit.fontawesome.com/1f86a74cff.js" crossorigin="anonymous"></script>
@@ -17,7 +20,7 @@
         <!-- MOBILE -->
         <div class="nav">
             <a href="#home" class="logo-text">Karlos<span>Dev</span></a>
-            <button class="burger-btn" value="Menu button">
+            <button class="burger-btn" aria-label="Menu button">
                 <div class="burger-btn__box">
                     <div class="burger-btn__bars"></div>
                 </div>
@@ -79,13 +82,15 @@
     <main class="main">
         <!-- ABOUT ME -->
         <section class="about" id="about-me">
-            <!-- <div class="wrapper">
+            <div class="wrapper">
                 <div class="about__boxs">
                     <div class="about__box about__box--left">
                         <img class="about__box--img" src="./dist/img/me.png" alt="">
                     </div>
                     <div class="about__box about__box--right">
                         <h2 class="about__box-title">about me</h2>
+                        <p class="about__box-text about__box-text--color ">17 years <span>/</span> Karol <span>/</span>
+                            Freelance</p>
                         <p class="about__box-text">
                             Greetings, my name is Karol.
                             My main goal while creating internet websites is correct "functionality", thats why i care
@@ -94,7 +99,7 @@
                         </p>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </section>
     </main>
     <script src="./dist/js/main.min.js"></script>
