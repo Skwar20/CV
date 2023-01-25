@@ -3,7 +3,7 @@
 <br clear="both">
 
 <p align="left">--🔭 I’m currently working on Portfolio.<br>
-<br>--🌱 I’m currently learning JavaScript.<br>
+<br>--🌱 I’m currently learning React.<br>
 <br>--👨‍💻 All of my projects are available at https://skwar20.github.io/CV<br>
 <br>--📫 How to reach me: ak5224208@gmail.com.</p>
 
